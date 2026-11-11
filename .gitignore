@@ -1,0 +1,51 @@
+# ==============================================================================
+# GeoFS-V3.9_Satellite-Imagery .gitignore
+# ==============================================================================
+
+# ==============================================================================
+# SECTION 1: WORKING & PRESERVED FILES (Explicit Whitelists)
+# ==============================================================================
+!satellite-imagery_standalone.user.js
+!*.user.js
+!.gitignore
+!.markdownlint.yaml
+!.markdownlint.json
+!readme*.md
+!changelog.md
+!license
+!release-notes/
+
+# ==============================================================================
+# SECTION 2: HIDDEN & IGNORED ARTIFACTS
+# ==============================================================================
+.DS_Store
+.DS_Store?
+.ds_store
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+Icon?
+Thumbs.db
+node_modules/
+build/
+dist/
+.env
+.env.*
+*.key
+*.pem
+*.token
+*.log
+logs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.gemini/
+.claude/
+.cursor/
+scratch/
+tmp/
+temp/
